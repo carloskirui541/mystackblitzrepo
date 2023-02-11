@@ -6,7 +6,7 @@ if (playGame) {
 		if (
 			playerOne === 'rock' ||
 			playerOne === 'paper' ||
-			playerOne === 'scissors'
+			playerOne === 'scissors' 
 		) {
 			let computerChoice = Math.floor(Math.random() * 3 + 1);
 			let computer =
